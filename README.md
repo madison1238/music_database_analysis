@@ -1,16 +1,16 @@
 # <p align="center">🎧Music Streaming Database & Analysis🎧</p>
 
-## Overview
+## 📌Overview
 This project is a relational database designed to simulate a Spotify-like system. It stores and analyzes data related to users, artists, songs, and listening behavior.
 The goal of this project was to design a well-structured database from scratch and use SQL queries to extract meaningful insights from the data.
 
-## Technologies and Principles Used
+## 🛠️Technologies and Principles Used
 * SQL (MySQL)
 * Normalization
 * Primary/foreign keys
 * Complex Queries
 
-## Schema Diagrams
+## 📊Schema Diagrams
 Primary keys are underlined and foreign keys are italicized.
 
 ### Entity Relationships
@@ -19,11 +19,11 @@ Image for ERD
 ### Third Normal Form
 Image for Third normal form
 
-## Database Implementation
+## 🧱Database Implementation
 The full database implementation schema can be found here:
 * link to schema.sql
 
-## Queries & Analysis
+## 🔍Queries & Analysis
 The queries used to analyze the data can be found here:
 * link to queries.sql
 
@@ -85,7 +85,7 @@ GROUP BY playlist.playlist_id
 ```
 link to image for result
 
-## Conclusion
+## 💭Conclusion
 I chose this topic because I have a strong interest in large scale platforms that generate substantial amounts of data. I am specifically intrested in the way that this data is stored, handled, and utilized to improve the users experience. 
 
 Through this project, I learned:
