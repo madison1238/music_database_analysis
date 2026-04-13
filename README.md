@@ -23,9 +23,29 @@ Primary keys are underlined and foreign keys are italicized.
 The full database implementation schema can be found here:
 * [schema.sql](schema.sql)
 
+This implementation includes:
+
+* Logical relationships modeled to reflect real-world interactions within a music streaming platform
+* Use of primary keys to uniquely identify each record  
+* Use of foreign keys to enforce relationships between tables  
+* Application of normalization principles to reduce redundancy and improve data integrity  
+* Appropriate data types selected for efficient storage and querying  
+* Junction tables to handle many-to-many relationships
+
+The schema was designed to support complex queries involving joins, aggregations, and filtering across multiple entities.
+
 ## 🔍Queries & Analysis
 The queries used to analyze the data can be found here:
 * [queries.sql](queries.sql)
+
+This file includes SQL queries that demonstrate:
+
+* Use of JOIN operations to combine data across multiple related tables  
+* Application of aggregate functions (COUNT, AVG, etc.) to summarize data  
+* Use of GROUP BY and ORDER BY to organize and rank results
+* Filtering data using WHERE clauses for more targeted insights  
+* Analysis of user behavior and music trends through structured queries  
+* Use of subqueries to perform more advanced data retrieval
 
 ### Example Insights
 
@@ -85,6 +105,8 @@ GROUP BY playlist.playlist_id
 ) AS sub;
 ```
 <img src="./images/avg_playlist_len.png" width="400" />
+
+#### Overall these queries reflect real-world use cases such as identifying popular content, analyzing user engagement, and uncovering trends within a music streaming platform.
 
 ## 💭 Conclusion
 I chose this topic because I have a strong interest in large scale platforms that generate substantial amounts of data. I am specifically intrested in the way that this data is stored, handled, and utilized to improve the users experience. 
